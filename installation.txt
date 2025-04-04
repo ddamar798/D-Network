@@ -1,0 +1,12 @@
+INSTALL AND RUNNING APP 🍁
+
+🧩 INSTALL LIBRARY
+----------------------------------
+pip install speedtest-cli scapy matplotlib
+
+RUNNING PROGRAM:
+----------------------------------
+1. Buka terminal
+2. Masuk ke folder tempat file disimpan:
+3. Jalankan file utama dashboard.py:
+   python dashboard.py
