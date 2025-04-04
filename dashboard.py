@@ -5,7 +5,7 @@ import sys
 import os
 
 def run_speedtest():
-    subprocess.Popen([sys.executable, "speedtest_gui.py"])
+    subprocess.Popen([sys.executable, "speedtest.py"])
 
 def run_network_scanner():
     subprocess.Popen([sys.executable, "network_scanner.py"])
