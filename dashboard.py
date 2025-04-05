@@ -1,11 +1,11 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk # get tkinter from import.
 import subprocess
 import sys
 import os
 
 def run_speedtest():
-    subprocess.Popen([sys.executable, "speedtest.py"])
+    subprocess.Popen([sys.executable, "speedtest_gui.py"])
 
 def run_network_scanner():
     subprocess.Popen([sys.executable, "network_scanner.py"])

@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 import threading
-import speedtest
+import speedtest_gui
 from datetime import datetime
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
@@ -14,7 +14,7 @@ def run_speedtest():
 
     def test():
         try:
-            st = speedtest.Speedtest()
+            st = speedtest_gui.Speedtest()
             st.get_best_server()
             download = st.download() / 1_000_000
             upload = st.upload() / 1_000_000
