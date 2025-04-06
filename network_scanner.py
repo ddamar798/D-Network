@@ -8,7 +8,7 @@ COMMON_PORTS = [21, 22, 23, 25, 53, 80, 110, 135, 139, 143, 443, 445, 8080]
 
 def scan_network():
     btn_scan.config(state=tk.DISABLED)
-    status.set("Memindai jaringan...")
+    status.set("Scaning jaringan...")
 
     def scan():
         ip_range = entry_ip.get() or "192.168.1.1/24"
