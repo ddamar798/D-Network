@@ -11,7 +11,7 @@ def scan_network():
     status.set("Scaning
                jaringan...")
 
-    def scan():
+    def scan(): 
         ip_range = entry_ip.get() or "192.168.1.1/24"
         devices = []
 
